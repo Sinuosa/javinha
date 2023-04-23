@@ -51,4 +51,4 @@ Código praticando após o vídeo:
 		}
 	}
   
-  [Exercício 00](link)
+  [Exercício 00](https://github.com/Sinuosa/javinha/blob/main/ex00.md)
