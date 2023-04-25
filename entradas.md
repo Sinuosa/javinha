@@ -157,3 +157,25 @@
 		//assim  quando  chama x1 = variavel.nextLine(); consome a quebra  de  linha  pendente e fica  como string vazia
 
 		//solução é fazer  um nextLine() extra antes  de  fazer o nextLine() de  interesse
+
+# Funções Matemáticas
+
+* Raiz quadrada: A = Math.sqrt(x);
+* X eleveado a Y: A = Math.pow(x, y);
+* A recebe valor absoluto de x: A = Math.abs(x);
+
+		public  class Main {
+			public  static  void main(String[] args) {
+
+					double x1, x2, x3, x4=-5;
+					x1 = Math.sqrt(4);
+					x2 = Math.pow(2, 3);
+					x3 = Math.abs(x4);
+
+					System.out.println(x1);
+					System.out.println(x2);
+					System.out.println(x3);
+				}
+		}
+		
+* Expressões maiores, exemplo: delta = Math.pow(b, 2.0) - 4*a*c; x1 = (-b + Math.sqrt(delta)) / (2.0 * a); x2 = (-b - Math.sqrt(delta)) / (2.0 * a);
