@@ -87,3 +87,41 @@
 				<comando 6>
 		}
     
+    
+* Outra opção:
+
+		if ( <condição 1> ) {
+			<comando 1>
+			<comando 2>
+		}
+		else if ( <condição 2> ){
+				<comando 3>
+				<comando 4>
+			}
+		else {
+				<comando 5>
+				<comando 6>
+		}
+    
+* Na prática:
+
+
+      import java.util.Scanner;
+        public  class Main {
+          public  static  void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            int  x;
+            x = sc.nextInt();
+
+            if(x < 12) {
+              System.out.println("Bom dia");
+            }
+            else  if(x < 18){
+              System.out.println("Boa tarde");
+            }
+            else {
+              System.out.println("Boa noite");
+            }
+            sc.close();
+          }
+      }
